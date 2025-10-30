@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", serif;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  padding: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 30px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+header h1 span {
+  display: block;
+}
+
+.contact-summary {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: 20px 0;
+  padding: 15px 0;
+  gap: 20px;
+}
+
+.contact p {
+  margin-bottom: 5px;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.summary h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.language p {
+  margin-top: 10px;
+}
+
+.dots {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.dots span {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.filled {
+  background: #000;
+}
+
+.edu, .exp {
+  margin-bottom: 20px;
+}
+
+.edu p, .exp p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
